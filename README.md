@@ -48,11 +48,15 @@ In the demo, you'll see 2 scales collecting data about "cardboard & metal" and "
 * Real-time live totals of each waste category from the last 1hr to 24hrs.
 * Cumulative and daily totals for the last weeks, from 1 week to 4 weeks.
 
-## Client
+## This repository
+
+You can find the "work-in-progress" web-service code for this project here in this repository. The embedded firmware for the project is currently not released however, but I hope to add it in the future.
+
+### Client
 
 Built on top of a react framework, the project structure is fairly simple. Instructions for setting up the project can be found at this [README](https://github.com/Caruychen/polarscale-demo/blob/main/client/README.md)
 
-## Server
+### Server
 
 Technically, the backend uses serverless functions deployed on Supabase. Supabase edge functions run on deno, so we avoid using npm package installs. 
 
